@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+    margin:600;
+    padding: 0;
+    background-color:  hsl(30, 54%, 90%);
+    width: 1440px;
+    font-family: "Young Serif", serif;
+    color: hsl(24, 5%, 18%);
+}
+
+.container{
+    width: 800px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 50px;
+}
+
+/*imagem do ovo*/
+img{
+    width: 800px;
+    height: auto;
+    border-radius: px;
+}
+p{
+    font-family: "Outfit", sans-serif;
+    color: hsl(24, 5%, 18%);
+
+}
+
+/*preparation time box*/
+.preparation{
+    background-color: hsl(330, 100%, 98%);
+    color: hsl(24, 5%, 18%);
+    font-family: "Outfit", sans-serif;
+    max-width: 1440px;
+    padding: 20px;
+    border: 2px solid;
+    border-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+}
+.preparation h3{
+    color: hsl(332, 51%, 32%);
+}
+
+/*ingredients, instructions e nutrition section*/
+.ingredients h2{
+    color: hsl(14, 45%, 36%);
+}
+.ingredients ul{
+    font-family: "Outfit", sans-serif;  
+    font-size: 16px;
+    color: hsl(24, 5%, 18%);
+}
+.ingredients ol{
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    color: hsl(24, 5%, 18%);
+}
+
+/*tabela*/
+
+table {
+    font-family: "Outfit", sans-serif;
+    color: hsl(24, 5%, 18%);
+}
+
+tr{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    border-bottom: 1px solid ;
+}
+
